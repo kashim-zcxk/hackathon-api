@@ -1,0 +1,16 @@
+server:
+  context-path: /
+  port: 7004
+  
+spring:
+  application:
+    name: tesis
+  data:
+    mongodb:
+      host: 172.22.207.139
+      port: 27017
+      database: yau 
+          
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
